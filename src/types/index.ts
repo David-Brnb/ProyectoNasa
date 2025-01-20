@@ -8,3 +8,8 @@ export type PostImage = {
     url?:string;
 
 }
+
+export type RootStackParams = {
+    Home: undefined;
+    Detail: PostImage;
+}
